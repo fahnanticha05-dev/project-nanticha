@@ -1,0 +1,626 @@
+html{
+    background-color: rgb(220, 246, 255);
+    color: #fff;
+}
+header{
+    background-color: rgb(220, 246, 255);
+    padding: 2%;
+}
+.web-header{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 2%;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+.bg-wave {
+    min-height: 400px;
+}
+
+.bg-wave-render {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.3
+}
+h1{
+    font-size: 64px;
+    color: #00c8ff !important;
+}
+.lead{
+    color: #fff !important;
+}
+
+.head-text {
+    text-align: center;
+}
+
+
+.text-floor {
+    font-size: 0.6rem;
+    color: #8b8b8b;
+}
+
+.text-volume {
+    font-size: 0.6rem;
+    color: #8b8b8b;
+}
+
+.text-change {
+    font-size: 1.1rem;
+    color: #00c227;
+    font-weight: bold;
+}
+
+.g-2 {
+    padding-bottom: 2%;
+}
+/* ระยะห่างแถบด้านบน */
+header {
+  padding: 16px 0;
+}
+
+.web-header {
+  margin-bottom: 0;
+}
+
+/* ยกเลิกระยะล่างเฉพาะแถวใน header */
+.web-header .row.g-2 {
+  padding-bottom: 0;
+}
+
+/* สีเมนูเมื่อชี้เมาส์ */
+.web-header .nav-link:hover {
+  color: #ffff00;
+}
+#logo.png {
+  display: block !important;
+  width: 200px !important;
+  max-width: 200px !important;
+  height: auto !important;
+  position: static !important;
+  transform: none !important;
+}
+/* HOME */
+.hero-section {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 80px 0 40px;
+}
+
+.hero-label {
+    color: #b5b5b5;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+}
+
+.hero-title {
+    font-size: clamp(44px, 8vw, 100px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}
+
+.hero-title span {
+    color: #dc3545;
+}
+
+.hero-description {
+    color: #c5c5c5;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    transition: transform 0.2s ease;
+}
+
+.hero-section .btn:hover {
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    margin-top: 50px;
+    overflow: hidden;
+    border: 1px solid #333333;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+}
+
+.hero-caption {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+    color: #999999;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .hero-image img {
+        aspect-ratio: 4 / 3;
+    }
+}
+.collection-intro {
+    max-width: 650px;
+    margin: 60px auto 20px;
+    text-align: center;
+}
+
+.intro-label {
+    color: #dc3545;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.collection-intro h2 {
+    color: #ffffff;
+    font-size: clamp(24px, 4vw, 32px);
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.intro-description {
+    color: #b5b5b5;
+    font-size: 16px;
+    line-height: 1.9;
+}
+/* ===== STORY ===== */
+
+.story-page {
+    background: #111111;
+    color: #ffffff;
+    padding: 70px 0 30px;
+}
+
+.story-heading {
+    max-width: 750px;
+    margin-bottom: 32px;
+}
+
+.story-label {
+    color: #dc3545;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.story-heading h1 {
+    color: #ffffff;
+    font-size: clamp(36px, 6vw, 72px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.story-description {
+    color: #b5b5b5;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.story-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 28px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #333333;
+}
+
+.story-category span {
+    padding: 8px 18px;
+    border: 1px solid #444444;
+    color: #dddddd;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.fashion-card {
+    height: 100%;
+    background: #181818;
+    border: 1px solid #303030;
+    transition: border-color 0.25s ease;
+}
+
+.fashion-card:hover {
+    border-color: #dc3545;
+}
+
+.fashion-image {
+    position: relative;
+    overflow: hidden;
+    background: #242424;
+}
+
+.fashion-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.fashion-card:hover .fashion-image img {
+    transform: scale(1.04);
+}
+
+.item-number {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: #111111;
+    color: #ffffff;
+    padding: 6px 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.fashion-info {
+    padding: 22px;
+}
+
+.item-category {
+    color: #dc3545;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.fashion-info h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.item-description {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.story-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-top: 1px solid #333333;
+    margin-top: 60px;
+    padding-top: 24px;
+    color: #999999;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.story-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.story-bottom a:hover {
+    color: #dc3545;
+}
+
+@media (max-width: 576px) {
+    .story-page {
+        padding-top: 45px;
+    }
+
+    .fashion-info {
+        padding: 18px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fashion-card,
+    .fashion-image img {
+        transition: none;
+    }
+
+    .fashion-card:hover .fashion-image img {
+        transform: none;
+    }
+}
+/* ลิงก์รูปในหน้า STORY */
+.item-link {
+    display: block;
+    text-decoration: none;
+}
+
+.item-link:focus-visible {
+    outline: 3px solid #dc3545;
+    outline-offset: 4px;
+}
+
+/* หน้า COLLECTION */
+.collection-detail-page {
+    background: #111111;
+    padding: 40px 0 80px;
+}
+
+.back-link {
+    display: inline-block;
+    color: #b5b5b5;
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
+.detail-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333333;
+}
+
+.detail-label {
+    color: #dc3545;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.detail-title {
+    color: #ffffff;
+    font-size: clamp(40px, 5vw, 72px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+.detail-summary {
+    color: #bbbbbb;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.detail-specs {
+    margin: 30px 0;
+    border-top: 1px solid #333333;
+}
+
+.detail-specs > div {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.detail-specs dt {
+    color: #999999;
+    font-weight: 400;
+}
+
+.detail-specs dd {
+    color: #ffffff;
+    margin: 0;
+}
+
+.detail-story {
+    margin-bottom: 30px;
+}
+
+.detail-story h2 {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.detail-story p {
+    color: #aaaaaa;
+    font-size: 16px;
+    line-height: 1.9;
+}
+#shoes-02 {
+    scroll-margin-top: 30px;
+}
+
+.detail-story h3 {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+/* ===== ABOUT ===== */
+
+.about-page {
+    background: #111111;
+    color: #ffffff;
+    padding: 70px 0 0;
+}
+
+.about-heading {
+    margin-bottom: 55px;
+}
+
+.about-page .about-label {
+    color: #dc3545;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.about-heading h1 {
+    color: #ffffff;
+    font-size: clamp(48px, 8vw, 100px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.about-heading h1 span {
+    color: #dc3545;
+}
+
+.about-subtitle {
+    color: #b5b5b5;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* ภาพด้านซ้าย */
+.about-photo {
+    margin: 0;
+}
+
+.about-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333333;
+}
+
+.about-photo figcaption {
+    margin-top: 14px;
+    color: #999999;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/* เรื่องราวด้านขวา */
+.about-content {
+    max-width: 620px;
+}
+
+.about-content h2 {
+    color: #ffffff;
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.about-content > p:not(.about-label) {
+    color: #b5b5b5;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.about-quote {
+    border-left: 3px solid #dc3545;
+    padding: 10px 0 10px 20px;
+    margin: 28px 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* การ์ดแนวคิด */
+.about-values {
+    margin-top: 80px;
+    padding-top: 45px;
+    border-top: 1px solid #333333;
+}
+
+.about-section-heading {
+    margin-bottom: 30px;
+}
+
+.about-section-heading h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-value-card {
+    height: 100%;
+    padding: 30px;
+    background: #181818;
+    border: 1px solid #333333;
+    transition: border-color 0.25s ease;
+}
+
+.about-value-card:hover {
+    border-color: #dc3545;
+}
+
+.about-number {
+    display: block;
+    color: #dc3545;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.about-value-card h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-value-card p {
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 1.9;
+    margin: 0;
+}
+
+/* ข้อความและปุ่มท้ายหน้า */
+.about-cta {
+    margin-top: 70px;
+    padding: 55px 20px;
+    border-top: 1px solid #333333;
+    text-align: center;
+}
+
+.about-cta h2 {
+    color: #ffffff;
+    font-size: clamp(24px, 4vw, 32px);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+    .about-page {
+        padding-top: 45px;
+    }
+
+    .about-heading {
+        margin-bottom: 35px;
+    }
+
+    .about-values {
+        margin-top: 50px;
+    }
+
+    .about-value-card {
+        padding: 24px;
+    }
+}
